@@ -1,0 +1,115 @@
+/* reset code starts here */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
+}
+
+/* reset code ends here */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+}
+
+.card {
+    width: 60%;
+    height: 70%;
+    /* text-align: center; */
+    background-color: #222222;
+    color: white;
+    overflow: auto;
+    border-radius: .4rem;
+}
+
+.heading{
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form label{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    font-weight: 300;
+}
+.form input{
+    width: 68%;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: none;
+}
+.form input:hover{
+    background-color: bisque;
+}
+
+.btn{
+    border: none;
+    margin-left: 0.5rem;
+    width: 15%;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: rgb(230, 117, 37);
+}
+.btn:hover{
+    background-color: bisque;
+}
+
+#ulList li{
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+#ulList li:hover{
+    background-color: black;
+}
+
+.delete{
+    color: red;
+    width: 40px;
+    background-color: bisque;
+}
+.delete:hover{
+    background-color: rgb(238, 140, 21);
+}
+
+.todo{
+    margin-left: 0.5rem;
+    font-size: large;
+    color: beige;
+}
+.addMessage{
+    height: 30px;
+    border: none;
+    border-left: 4px solid rgb(46, 219, 46);
+    background-color: rgb(149, 202, 174);
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+    padding: .3rem;
+}
+.deleteMessage{
+    height: 30px;
+    border: none;
+    border-left: 4px solid rgb(220, 31, 31);
+    background-color: rgb(236, 194, 192);
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+    padding: .3rem;
+}
